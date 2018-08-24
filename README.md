@@ -6,7 +6,7 @@ c project template based on autoconf and automake with recursive make approach
 2. cd recursive-make
 3. autoreconf --install
 
-* release build
+* for release build
 4. mkdir build && cd build
 5. ../configure
 6. make
