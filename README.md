@@ -20,3 +20,6 @@ c project template based on autoconf and automake with recursive make approach
 
 # notes
 * refer to debug/common_flags.sh and debug_configure to modify the CCFLAGS and CPPFLAGS as you need, for release build, such flag just leave to autotools to manage
+
+# reference
+* https://github.com/PhilipDaniels/autotools-template
