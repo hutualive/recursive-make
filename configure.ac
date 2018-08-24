@@ -1,13 +1,12 @@
 # AC_INIT([FULL-PACKAGE-NAME], [VERSION], [BUG-REPORT-ADDRESS], [TAR-NAME], [URL])
-AC_INIT([hello], [0.0.1], [bug@xxx.com], [hello], [http://www.xxx.com])
+AC_INIT([hello], [0.0.1], [bug@xxx.com], [hello], [xxx.com])
 
 # Force autoconf to be at least this version number.
 AC_PREREQ([2.69])
 
 # Put autotools auxiliary files in a subdir, so they don't clutter top dir.
-# I am not actually doing this at the moment, add it when you need it!
-#AC_CONFIG_AUX_DIR([build-aux])
-#AC_CONFIG_MACRO_DIR([m4])
+AC_CONFIG_AUX_DIR([build-aux])
+AC_CONFIG_MACRO_DIR([m4])
 
 # Enable "automake" to simplify creating makefiles. foreign relaxes some GNU
 # checks. -Wall and -Werror are instructions to Automake, not GCC.
