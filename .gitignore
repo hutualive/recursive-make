@@ -1,6 +1,13 @@
 # http://www.gnu.org/software/automake
 build
 
+/debug/src
+/debug/Makefile
+/debug/config.h
+/debug/config.log
+/debug/config.status
+/debug/stamp-h1
+
 Makefile.in
 /ar-lib
 /mdate-sh
