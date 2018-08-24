@@ -6,13 +6,13 @@ c project template based on autoconf and automake with recursive make approach
 2. cd recursive-make
 3. autoreconf --install
 
-//release build //
+* release build
 4. mkdir build && cd build
 5. ../configure
 6. make
 7. src/hello
 
-//or debug build //
+* or debug build
 4. cd debug
 5. ./debug_configure
 6. make
